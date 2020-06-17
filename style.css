@@ -218,7 +218,7 @@ height:40px !important;
 }
 }
 
-.form-control{
+.search-box .form-control{
 border-width:0px !important;
 }
 /*remove libanswers borders/padding around search bar*/
