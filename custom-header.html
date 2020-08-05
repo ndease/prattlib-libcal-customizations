@@ -1,11 +1,11 @@
 <script>
-window.onload=newBg;
+window.onload=adjustLibCal;
 
-function newBg(){
+function adjustLibCal(){
 document.getElementById("custom-header").className = "header" + Math.floor(Math.random() * 6);;
+document.getElementById("cart-nav").firstElementChild.innerHTML = "<i class='fa fa-shopping-cart fa-lg eq-fa-add' aria-hidden='true'>"+"</i>"+ "   Checkout";
 }
 </script>
-<a href="#search" class="hide">Skip to library search</a>
 
 <header id="custom-header">
   <nav class="navbar navbar-default navbar-fixed-top navbar-custom navbar-dark">
@@ -35,10 +35,11 @@ document.getElementById("custom-header").className = "header" + Math.floor(Math.
                 <li class="nav-item"><a href="https://library.pratt.edu/staff">Staff Directory</a></li>
                 <li class="nav-item"><a href="https://pratt.libcal.com/hours">Library Hours</a></li>
                 <li class="nav-item"><a href="https://pratt.libcal.com">Exhibits & Events</a></li>
+                <li class="nav-item"><a href="https://libguides.pratt.edu/blog">Blog</a></li>
               </ul>
             </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://cat.pratt.edu/patroninfo~S0" target="_blank">
+        <a class="nav-link" href="https://cat.pratt.edu/patroninfo~S0">
     <i class="fa fa-user-circle fa-lg icon-button"></i><span class="hide">My Account</span></a>
         </li>
           </ul>
