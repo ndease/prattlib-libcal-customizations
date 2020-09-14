@@ -4,7 +4,6 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">-->
 
-
 <style>
 
 /*fix pratt headings*/
@@ -284,7 +283,7 @@ background-color:white !important;
 background-image:none !important;
 border-width:1px;
 border-color:black;
-background-color:#0090D0 !important;
+background-color:#0C77D4 !important;
 color: white !important;
 height:40px;
 font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
@@ -818,7 +817,7 @@ a {
 }
 .dropdown-menu>li>a:hover {
     color: white !important;
-    background-color: #0090D0 !important;
+    background-color: #0C77D4 !important;
 }
 
 .header0  {
@@ -903,7 +902,7 @@ color:#FFB900;
 }
 
  .dropdown-menu {
-background-color: #fff !important; 
+background-color: #fff !important;
 }
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
@@ -917,5 +916,89 @@ margin-top:50px;}
 
 #s-lc-eq-navform{
 display:none;
+}
+
+.btn-primary{
+  margin:2px;
+  border-width:1px !important;
+  border-color:black !important;
+  border-radius:0px !important;
+  background-color:white !important;
+  color: black !important;
+  font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+
+}
+
+.btn-primary:hover{
+  margin:2px;
+  border-width:1px !important;
+  border-color:black !important;
+  border-radius:0px !important;
+  background-color:#0C77D4 !important;
+  color: white !important;
+  font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+
+}
+
+/*hide the appointment time in cart*/
+#eid_74238{
+display:none;
+}
+/*hide remove all equipment in cart */
+#s-lc-eq-remove-all{
+display:none;
+}
+
+/*center booking form h1s*/
+#s-lc-eq-form h1 {
+    text-align: center;
+}
+
+/*hide unused booking widget options*/
+select#capacity {
+    display: none !important;
+}
+
+.s-lc-eq-co-terms h3 {
+display:none;
+}
+
+/*fix libcal form alignment to account for our sticky nav*/
+.s-lc-booking-form-help {
+padding-top: 4.5em;
+}
+
+#s-lc-eq-success-content{
+font-size:1em;
+padding-top:4.5em;
+text-align:center;
+}
+##s-lc-eq-success{
+text-align:center;
+}
+
+div#s-lc-eq-bform-inner {
+    margin-left: 0%;
+}
+
+/*adjust spacing for appointment booking h1*/
+h1#s-lc-public-pt {
+    margin-bottom: 1.5em;
+}
+/*more noticeable CTA buttons!*/
+.btn.btn-primary{
+ width: 100%;
+    background-color: #FFB900 !important;
+    border-radius: 4px !important;
+    border: 0px solid !important;
+    color: #333333;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+}
+
+.btn.btn-primary:hover {
+         background-color: #0C77D4 !important;
+           color:white !important;
 }
 </style>
