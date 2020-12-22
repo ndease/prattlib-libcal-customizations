@@ -1001,4 +1001,16 @@ h1#s-lc-public-pt {
          background-color: #0C77D4 !important;
            color:white !important;
 }
+
+.s-lch-widget-float-btn{
+box-shadow:none !important;
+}
+.s-lch-widget-float.open{
+z-index:9000;
+}
+
+button.s-lch-widget-float-btn.online.s-lch-widget-img-btn {
+    cursor: pointer;
+}
+
 </style>
