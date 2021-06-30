@@ -56,13 +56,13 @@ header{
     -moz-background-size: cover;
     background-size: cover;
 }
-
+/*
 @media(min-width:1350px){
 .navbar-main{
 margin-right:10% !important;
 }
 }
-
+*/
 .navbar-brand{
 margin:0px !important;
 float:none !important;
@@ -425,7 +425,7 @@ font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
 }
 
 /*Pratt Style */
-
+@font-face {
 font-family: 'ApercuBold';
   src: url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.eot/fonts/apercu-bold-webfont.eot");
   src: url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.svg#ApercuBold") format("svg"), url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.woff") format("woff"), url("https://www.pratt.edu/assets/fonts/apercu-bold-webfont.ttf") format("truetype");
@@ -856,7 +856,7 @@ color:#FFB900;
 }
 
 /* CHANGING BREAKPOINT OF BOOTSTRAP 3 NAVIGATION BAR*/
-@media (max-width: 1080px) {
+@media (max-width: 1126px) {
         .navbar-header {
                 float: none;
         }
