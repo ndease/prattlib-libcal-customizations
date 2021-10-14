@@ -1020,4 +1020,8 @@ button.s-lch-widget-float-btn.online.s-lch-widget-img-btn {
     cursor: pointer;
 }
 
+.s-lc-skiplink {
+top:-60px;
+}
+
 </style>
